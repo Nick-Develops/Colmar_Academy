@@ -1,0 +1,45 @@
+/*-- Border & Margin Reset --*/
+
+*, html {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*-- Main Elements --*/
+
+header {
+    height: 64px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+.nav {
+    display: inline-flex;
+    float: right;
+}
+
+header p {
+    margin: 16px 0px;
+    font-size: ;
+}
+
+nav {
+    margin: 0;
+    justify-content: center;
+    padding: 8px 16px;
+}
+
+nav, li {
+    width: auto;
+    list-style-type: none;
+    float: right;
+    padding: 8px 16px;
+}
