@@ -1,93 +1,78 @@
-/*-- Border & Margin Reset --*/
+/* Universal Styles */
 
 html {
-    margin:0;
-    padding:0;
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-}
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #01161E;
+  }
+  
+main {
+    font-family: "Open Sans", sans-serif;
+    position:relative;    /* handle fixed menu bar */
+    top: 4rem;
+    color: #01161E;
+  }
+  
+section:nth-child(2n+1) {
+    background-color: #EEF9ED;
+  }
+  
+section {
+    width: auto 0;
+  }
+  
+a {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding-left: 1rem;
+    color: #01161E;
+    font-size: 1.25rem;
+  }
+  
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+  
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 2rem 0;
+  }
+  
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+  
+h5, footer span {
+    font-size: 0.8rem;
+    color: #01161E;
+  }
+  
+p {
+    line-height: 1.35;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+  }
 
-/*-- Header Elements --*/
+  /* Nav Bar Section */
 
 header {
-    height: 60px;
-    position: fixed;
     background-color: white;
     width: 100%;
-    z-index: 10;
-    justify-content: space-between;
-}
-
-.logo {
-    display: inline-flex;
-    padding-left: 24px;
-}
-
-.nav {
-    float: right;
-}
-
-header p {
-    margin: 16px 0px;
-    font-size: 16px;
-}
-
-nav {
-    margin: 0;
-    justify-content: center;
-    padding: 8px 16px;
-}
-
-nav, li {
-    width: auto;
-    list-style-type: none;
-    float: right;
-    padding: 8px 16px;
-}
-
-/*-- Body Elements --*/
-
-body {
-    width: 100%;
-}
-
-
-div {
-    
-}
-
-/*- Div1 -*/
-
-.div1 {
-    background-color: rgb(133, 133, 133);
-    min-width: 120%;
-    overflow: hidden;
-    display: inline-flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 64px;
-    width: 10%;
-}
-
-.div1 img {
-    width: 60%;
-}
-
-.div1a {
+    height: 4rem;
     display: flex;
-    max-width: 60%;
-    height: auto;
-    padding: 32px 24px;
 }
 
-.side-text {
-    
-}
+.title-bar {
+    color: #8A97A8;
+  }
 
-/*- Div2 -*/
-
-
-/*- Div3 -*/
-
-
-/*- Div4 -*/
+.title-bar span {
+    color: rgb(0, 0, 0);
+  }
