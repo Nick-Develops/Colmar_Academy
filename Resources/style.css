@@ -1,104 +1,103 @@
 /* Universal Styles */
 
 html {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    color: #01161E;
-  }
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #01161E;
+}
   
 main {
-    font-family: "Open Sans", sans-serif;
-    position:relative;    /* handle fixed menu bar */
-    top: 4rem;
-    color: #01161E;
-  }
+  font-family: "Open Sans", sans-serif;
+  position:relative;    /* handle fixed menu bar */
+  top: 4rem;
+  color: #01161E;
+}
   
 section:nth-child(2n+1) {
-    background-color: #EEF9ED;
-  }
+  background-color: #EEF9ED;
+}
   
 section {
-    width: auto 0;
-  }
+  width: auto 0;
+}
   
 a {
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    padding-left: 1rem;
-    color: #01161E;
-    font-size: 1.25rem;
-  }
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding-left: 1rem;
+  color: #01161E;
+  font-size: 1.25rem;
+}
   
 h1 {
-    font-family: "Roboto", sans-serif;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.1;
-  }
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
   
 h2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 2.4rem;
-    font-weight: bold;
-    padding: 2rem 0;
-  }
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
   
 h3 {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.2;
-    font-weight: bold;
-  }
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
   
 h5, footer span {
-    font-size: 0.8rem;
-    color: #01161E;
-  }
+  font-size: 0.8rem;
+  color: #01161E;
+}
   
 p {
-    line-height: 1.35;
-    padding: 0.5rem 0.5rem 0.5rem 0;
-  }
+  line-height: 1.35;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
 
   /* Header Section */
 
 header {
-    background-color: white;
-    width: 100%;
-    top: 0;
-    height: 4rem;
-    display: inline-flex;
-    justify-content: space-around;
-    position: fixed;
-    z-index: 10;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  height: 4rem;
+  display: inline-flex;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 10;
 }
 
 header img {
-    height: 5rem;
-    padding: 0 1% 0 1.5rem;
-    align-self: center;
+  height: 4rem;
+  padding: 0 1% 0 1.5rem;
+  align-self: center;
   }
 
 .logo {
-    display: flex;
-    padding: 0;
-    align-items: center;
+  display: flex;
+  padding: 0;
+  align-items: center;
 }
 
 .title-bar {
-    color: #8A97A8;
+  color: #8A97A8;
 }
 
 .title-bar span {
-    color: rgb(0, 0, 0);
-    padding: 0;
+  color: rgb(0, 0, 0);
+  padding: 0;
 }
 
 nav {
-    float: right;
-    
+  margin-right: 0 auto;
 }
 
 nav a {
-    padding: 1rem;
+  padding: 1rem;
 }
