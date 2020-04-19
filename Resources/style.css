@@ -14,7 +14,7 @@ main {
 }
   
 section:nth-child(2n+1) {
-  background-color: #EEF9ED;
+  background-color: rgb(187, 187, 187);
 }
   
 section {
@@ -34,6 +34,7 @@ h1 {
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.1;
+  color: rgb(13, 57, 75);
 }
   
 h2 {
@@ -41,6 +42,7 @@ h2 {
   font-size: 2.4rem;
   font-weight: bold;
   padding: 2rem 0;
+  color: rgb(13, 57, 75);
 }
   
 h3 {
@@ -48,8 +50,15 @@ h3 {
   font-size: 1.4rem;
   line-height: 1.2;
   font-weight: bold;
+  color: rgb(13, 57, 75);
 }
   
+h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
 h5, footer span {
   font-size: 0.8rem;
   color: #01161E;
@@ -65,10 +74,8 @@ p {
 header {
   background-color: white;
   width: 100%;
-  top: 0;
   height: 4rem;
-  display: inline-flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: fixed;
   z-index: 10;
 }
@@ -95,9 +102,52 @@ header img {
 }
 
 nav {
-  margin-right: 0 auto;
+  margin-right: 0;
 }
 
 nav a {
   padding: 1rem;
+}
+
+/* Banner (div1) */
+
+
+.side-text {
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.banner img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+  flex-shrink: 0;
+}
+
+.banner h3 {
+  margin: 1.5rem 0;
+}
+
+.banner .side-text {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(68, 68, 68);
+  border-radius: 1px;
+  padding: 1rem;
+  transition: background-color 0.12s ease 0s;
+}
+
+button h4 {
+  color: rgb(241, 241, 239)
+}
+
+Button:hover {
+  background-color: rgb(114, 114, 114);
+  color: black;
 }
