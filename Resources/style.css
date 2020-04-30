@@ -68,6 +68,9 @@ h5, footer span {
   color: #01161E;
 }
 
+img {
+  height: auto;
+}
 
 p {
   line-height: 1.35;
@@ -306,8 +309,9 @@ footer {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  border-top: grey 2px solid;
+  border-top: grey 1px solid;
   width: 100%;
+  position: relative;
 }
 
 footer .terms {
