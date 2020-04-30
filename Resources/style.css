@@ -87,6 +87,7 @@ header {
   margin-top: 0;
   justify-content: space-between;
   position: fixed;
+  display: flex;
   z-index: 10;
 }
 
@@ -112,7 +113,8 @@ header img {
 }
 
 nav {
-  margin-right: 0;
+  margin-right: 10px;
+  width: auto;
 }
 
 nav a {
@@ -230,7 +232,7 @@ color: blue;
   display: flex;
 }
 
-.start-learning-title {
+.section-title {
   text-align: center;
   padding-top: 2rem;
 }
@@ -261,4 +263,57 @@ color: blue;
 .course img {
   width: 100%;
   height: auto;
+}
+
+/* Thesis Exhibit Section */
+
+.thesis-exhibit {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.video {
+  width: 60%;
+}
+
+.video video {
+  width: 90%;
+  height: auto;
+  align-self: center;
+  padding: 2rem;
+}
+
+.reimagine-urban {
+  display: flex;
+  margin: 1.5rem;
+}
+
+.terms {
+  color:grey;
+  font-size: 0.5rem;
+}
+
+.information-thumbs img {
+  height: auto;
+  width: 35%;
+}
+
+/* Footer Section */
+
+footer {
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: grey 2px solid;
+  width: 100%;
+}
+
+footer .terms {
+  padding: 1rem 2rem;
+}
+
+footer p {
+  padding: 1rem 2rem;
 }
