@@ -121,6 +121,29 @@ nav {
   padding: 1rem;
 }
 
+/*-- Mobile Media Sizing --*/
+
+@media only screen and (max-width: 835px) {
+  
+  body {
+    width: 350px;
+    justify-content: center;
+    margin: 0 15%;
+  }
+
+  .title-bar {
+    display: none;
+  }
+  
+  .desktop a {
+    display: none;
+  }
+
+  .mobile a {
+    display: inline-block;
+  }
+}
+
 nav a:hover {
   color: rgb(138, 138, 138);
 }
@@ -134,7 +157,7 @@ nav a {
   transition: color 0.3s ease-in-out 0s;
 }
 
-/* Banner (div1) */
+/* Banner Section */
 
 .banner {
   flex-wrap: nowrap;
@@ -165,6 +188,7 @@ nav a {
 .banner .side-text {
   width: 30%;
   box-sizing: border-box;
+  padding: 3rem;
 }
 
 button {
@@ -193,6 +217,26 @@ Button:hover {
   flex-wrap: nowrap;
 }
 
+@media only screen and (max-width: 1659px) and (min-width: 800px) {
+  
+  .information {
+    display: inline-block;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .information-thumbs {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 4.5rem;
+  margin: 1rem;
+  width: 100%;
+  }
+
+}
+
 .info-banner {
   width: 60%;
   padding: 2rem 1.5rem;
@@ -202,11 +246,27 @@ Button:hover {
   width: 100%;
 }
 
+@media only screen and (min-width: 1660px) {
+
+  .information-thumbs {
+  display: flex;
+  flex-flow: column;
+  vertical-align: top;
+  width: 35%;
+  height: auto;
+  justify-content: center;
+  }
+
+}
+
+
 .information-thumbs {
   display: flex;
   flex-flow: column;
   vertical-align: top;
   width: 35%;
+  height: auto;
+  justify-content: center;
 }
 
 .aside {
@@ -220,6 +280,8 @@ Button:hover {
 .aside img {
   width: 35%;
   height: auto;
+  max-height: 300px;
+  max-width: 300px;
   display: inline-block;
   padding: 1rem 1rem;
 }
@@ -246,6 +308,7 @@ color: blue;
   background-color: rgb(212, 212, 212);
 }
 
+
 /*  Start Learning Section */
 
 .start-learning {
@@ -271,7 +334,7 @@ color: blue;
   margin: 0rem 1rem 2rem 1rem;
   width: 23%;
   min-width: 200px;
-  min-height: 26rem;
+  min-height: 24rem;
   height: auto;
 }
 
@@ -303,16 +366,12 @@ color: blue;
   height: auto;
   align-self: center;
   padding: 2rem;
+
 }
 
 .reimagine-urban {
   display: flex;
   margin: 1.5rem;
-}
-
-.terms {
-  color:grey;
-  font-size: 0.5rem;
 }
 
 .information-thumbs img {
@@ -332,6 +391,11 @@ footer {
   position: relative;
 }
 
+.terms {
+  color:grey;
+  font-size: 0.5rem;
+}
+
 footer .terms {
   padding: 1rem 2rem;
 }
@@ -339,3 +403,4 @@ footer .terms {
 footer p {
   padding: 1rem 2rem;
 }
+
