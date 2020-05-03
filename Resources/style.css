@@ -118,20 +118,35 @@ header img {
 nav {
   margin-right: 10px;
   width: auto;
+  padding: 1rem;
+}
+
+nav a:hover {
+  color: rgb(138, 138, 138);
+}
+
+.mobile {
+  display: none;
 }
 
 nav a {
   padding: 0rem 1rem;
+  transition: color 0.3s ease-in-out 0s;
 }
 
 /* Banner (div1) */
 
+.banner {
+  flex-wrap: nowrap;
+  display: inline-flex;
+}
 
 .side_text {
   display: inline-flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: center;
   vertical-align: middle;
+  height: auto;
 }
 
 .banner img {
@@ -144,7 +159,7 @@ nav a {
 }
 
 .banner h3 {
-  margin: 1.5rem 0;
+  margin: 1.5rem 0rem;
 }
 
 .banner .side-text {
@@ -154,9 +169,11 @@ nav a {
 
 button {
   background-color: rgb(68, 68, 68);
-  border-radius: 1px;
+  border-radius: 4px;
   padding: 1rem;
   transition: background-color 0.12s ease 0s;
+  padding: 1rem;;
+  width: 93%;
 }
 
 button h4 {
@@ -255,6 +272,7 @@ color: blue;
   width: 23%;
   min-width: 200px;
   min-height: 26rem;
+  height: auto;
 }
 
 .course h2 {
